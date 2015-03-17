@@ -4,7 +4,7 @@ import urllib2, json, time
 # No error checking at this time since it was thrown together quickly for a contest!
 
 def main():
-	#response = urllib2.urlopen('http://www.reddit.com/r/Club_Nintendo/comments/2zbh79/looks_like_canadian_accounts_are_now_getting/.json')
+	#response = urllib2.urlopen('http://www.reddit.com/r/subreddit/comments/id0000/thread_name/.json')
 	#json_data = response.read()
 	json_data = open('data')
 	json_tree = json.load(json_data)
